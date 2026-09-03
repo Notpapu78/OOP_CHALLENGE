@@ -1,0 +1,95 @@
+:root {
+    color-scheme: dark;
+
+    --verde_agua: #53c89be8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border: none;
+    height: 20px;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #05301fab;
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: var(--verde_agua);
+
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding: 8px;
+}
+
+header div {
+    display: flex;
+}
+
+header div h2 {
+    width: fit-content;
+}
+
+header > img {
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    width: 90vw;
+    padding: 12px;
+    margin: auto;
+}
+
+#presentation {
+    font-weight: 900;
+    color: var(--verde_agua);
+    
+    display: grid;
+    place-content: center;
+    transition: background-color 0.8s ease-out;
+}
+
+#presentation h1 {
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+#Services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+    background-color: var(--verde_agua);
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: var(--verde_agua);
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}

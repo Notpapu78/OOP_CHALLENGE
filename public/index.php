@@ -20,7 +20,7 @@
         
         <section>
             <article id="Services">
-                <button><a href="FormDoctor.php">Agregar un Doctor</a></button>
+                <button><a href="FormDoctor.php" targ>Agregar un Doctor</a></button>
                 <button><a href="FormPatient.php">Agregar un Paciente</a></button>
                 <button><a href="FormCita.php">Agendar una Cita</a></button>
             </article>

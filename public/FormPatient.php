@@ -2,24 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/forms.css">
     <title>Crear Paciente</title>
 </head>
 <body>
-    <h1>Registro de Paciente</h1>
-    <form action="index.php" method="POST">
-        <label for="name">Nombre:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+    <main>
+        <h1>Registro de Paciente</h1>
+        <form action="index.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
 
-        <label for="age">Edad:</label><br>
-        <input type="number" id="age" name="age" required><br><br>
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="age" required>
 
-        <label for="phoneNumber">Teléfono:</label><br>
-        <input type="text" id="phoneNumber" name="phoneNumber" required><br><br>
+            <label for="phoneNumber">Teléfono:</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" required>
 
-        <label for="address">Dirección:</label><br>
-        <input type="text" id="address" name="address" required><br><br>
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required>
 
-        <button type="submit" name="action" value="create_patient">Guardar Paciente</button>
-    </form>
+            <button type="submit" name="action" value="create_patient">Guardar Paciente</button>
+        </form>
+    </main>
 </body>
 </html>

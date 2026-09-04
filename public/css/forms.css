@@ -1,0 +1,63 @@
+:root {
+    color-scheme: dark;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: clamp(200px, 35vw, 500px);
+    margin: 100px auto;
+    background-color: #126d4fe0;
+    padding: 30px;
+    border-radius: 20px;
+
+    display: grid;
+    place-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+main > h1 {
+    font-size: 42px;
+    margin-bottom: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 26px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+input {
+    width: 90%;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 60%;
+    background-color: darkgreen;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    margin: 30px auto 4px;
+    transition: 1s ease-in-out;
+}
+
+button:hover {
+    background-color: green;
+}
